@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import {Router} from "react-native-router-flux";
+//import {Router} from "react-native-router-flux";
 import {Provider} from "react-redux";
 import scenes from '../routes/home/scenes'
 import PropTypes from 'prop-types';
-import HomeContainer from '../home/containers/HomeContainers';
+//import HomeContainer from '../home/containers/HomeContainers';
 import { View, Text } from 'react-native'
-import { NativeRouter } from 'react-router-native'
-import { StackSwitch } from 'react-router-native-navigation'
+//import { NativeRouter } from 'react-router-native'
+//import { StackSwitch } from 'react-router-native-navigation'
 import { createStackNavigator } from 'react-native-navigation-stack'
 import { createAppContainer } from 'react-native-navigation';
 
